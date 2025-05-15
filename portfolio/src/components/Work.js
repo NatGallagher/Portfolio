@@ -19,7 +19,16 @@ React is a powerful JavaScript library for building interactive user interfaces.
             </div>
             <div>
                 <a href="https://natgallagher.github.io/Gallagh-Project-4/">Bible Verse Memory App</a>
-                <p></p>
+                <p>This is a full-stack web application designed to help users memorize and manage Bible verses. The app follows a 3-tier architecture consisting of:<br/>
+                <ul>
+                    <li>Frontend (User Interface): What the user sees and interacts with</li>
+                    <li>Backend (APIs): Handles requests and responses</li>
+                    <li>Database (SQLite): Stores user credentials and, eventually, personalized memory verses</li>
+                </ul>
+
+Built with React, Node.js, Express, and SQLite, the app allows users to register with a unique username and password, securely log in, and begin working with preloaded memory verses. Logged-in users can select a verse to focus on by clicking the associated button.<br/>
+
+While the app is still in development, its core functionality is live and user-friendly. Upcoming features include the ability for users to save and organize their own memory verses, providing a personalized experience for Scripture memorization.</p>
             </div>
         </>
     )
