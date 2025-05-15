@@ -8,6 +8,8 @@ function Work() {
             </div>
             <div>
                 <a href="https://natgallagher.github.io/Gallagh-Project-2/">Giphy Search Engine</a>
+                <p>A fun and interactive web app that lets users search for and browse animated GIFs to share with friends! Built with HTML, CSS, and JavaScript, this project demonstrates how to retrieve data from an external API, fetch and process that data, and dynamically display the results in an engaging format. It’s a great example of working with APIs and asynchronous JavaScript in a real-world application.
+                Try it out and find your favorite GIF!</p>
             </div>
         </>
     )
