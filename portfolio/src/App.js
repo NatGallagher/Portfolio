@@ -4,6 +4,8 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Work from "./components/Work";
 import NavBar from "./components/NavBar";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css"
 
 function App() {
   return (
