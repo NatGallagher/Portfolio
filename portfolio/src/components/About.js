@@ -1,13 +1,23 @@
 import React from 'react';
 import { Container, Card } from 'react-bootstrap';
+import profilePic from '../img/profile-pic.png';
 
 function About() {
   return (
-    <Container fluid className="bg-dark text-white py-5">
+    <Container fluid className="bg-dark text-white py-5" style={{minHeight: "100vh"}}>
+        
       <Container style={{ maxWidth: '800px' }}>
-        <Card className="bg-secondary text-white p-4 shadow">
+        
+        <Card className="bg-secondary text-white px-4 pt-3 pb-4 shadow">
+        <img
+            src={profilePic}
+            height="150"
+            width="140"
+            alt="Profile"
+            className="d-block mx-auto mb-2 rounded-circle"
+            />
           <Card.Body>
-            <Card.Title as="h2" className="mb-4">About</Card.Title>
+            <Card.Title as="h2" className="mb-3">About</Card.Title>
             <Card.Text>
               Hi, I’m <strong>Nat Gallagher</strong> — a certified software engineer with a passion for building practical, user-focused web applications. I earned my certification through QuickStart, in partnership with The University of Tennessee, and specialize in full stack web development.
               <br /><br />
