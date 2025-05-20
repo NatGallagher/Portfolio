@@ -1,7 +1,19 @@
 function Work() {
     return (
       <>
-        <h2 style={{ color: 'white', textAlign: 'center', marginTop: '1rem' }}>Work</h2>
+        <div style={{ display: 'flex', justifyContent: 'center', marginTop: '2rem' }}>
+          <h2 style={{
+                color: '#222',
+                fontSize: '2.5rem',
+                fontWeight: '700',
+                borderBottom: '3px solid #007bff',
+                display: 'inline-block',
+                paddingBottom: '0.5rem',
+                margin: 0
+              }}>
+            Work
+          </h2>
+        </div>
         <div className="work-container">
           <div className="project-card">
             <a href="https://natgallagher.github.io/Gallagh-Project-1/" target="_blank" rel="noreferrer">Business Website</a>
