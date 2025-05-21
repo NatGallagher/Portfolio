@@ -7,7 +7,7 @@ function Home() {
 
     return (
       <>
-        <div className="App" style={{backgroundColor: "#1b1b1b", color: "white", minHeight: "100vh", paddingTop: "70px"}}>
+        <div className="App" style={{backgroundColor: "#1b1b1b", color: "white", paddingTop: "70px"}}>
           <h2 style={{paddingBottom: "70px"}}>Software Engineer | Crafting Innovative Software Solutions | JavaScript, React, Node.js, SQL</h2>
           <h4>Hello, I'm Nat Gallagher <img src={profilePic} height="110" width="100" alt="Profile" style={{borderRadius: "50%"}}></img> a Full Stack Developer</h4>
           <button onClick={() => navigate('/contact')}
@@ -34,6 +34,33 @@ function Home() {
           </button>
 
         </div>
+        <div className="work-container" style={{backgroundColor: "#1b1b1b"}}>
+          <div className="project-card">
+              <a href="https://www.linkedin.com/in/nathaniel-gallagher-420311334/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <p>This is a clean, responsive website designed to promote the services of a freelance music arranger. It features an embedded audio sample player and a contact form for client engagement.</p>
+            </div>
+    
+            <div className="project-card">
+              <a href="https://github.com/NatGallagher" target="_blank" rel="noreferrer">GitHub</a>
+              <p>An interactive web app that lets users search and browse GIFs using an external API. It demonstrates async JavaScript and dynamic DOM manipulation.</p>
+            </div>
+    
+            <div className="project-card">
+              <a href="https://natgallagher.github.io/Gallagh-Project-3/" target="_blank" rel="noreferrer">About Me</a>
+              <p>A fully functional to-do list built with React. It allows users to manage tasks and filters them by completion status, showcasing React state and component design.</p>
+            </div>
+    
+            <div className="project-card">
+              <a href="https://natgallagher.github.io/Gallagh-Project-4/" target="_blank" rel="noreferrer">Latest Project</a>
+              <p>This full-stack app helps users memorize Scripture with login, verse selection, and a 3-tier architecture:</p>
+              <ul>
+                <li>Frontend (React)</li>
+                <li>Backend (Node/Express)</li>
+                <li>Database (SQLite)</li>
+              </ul>
+              <p>Future updates will include personal verse storage and organization.</p>
+            </div>
+          </div>
       </>
     );
   }
