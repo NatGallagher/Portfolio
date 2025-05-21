@@ -37,17 +37,18 @@ function Home() {
         <div className="work-container" style={{backgroundColor: "#1b1b1b"}}>
           <div className="project-card">
               <a href="https://www.linkedin.com/in/nathaniel-gallagher-420311334/" target="_blank" rel="noreferrer">LinkedIn</a>
-              <p>This is a clean, responsive website designed to promote the services of a freelance music arranger. It features an embedded audio sample player and a contact form for client engagement.</p>
+              <p>Full Stack Developer | JavaScript • React • Node.js • SQL
+              Certified through QuickStart + UTK. Passionate about building clean, practical web apps that solve real problems. Open to full stack, front-end, or back-end roles.</p>
             </div>
     
             <div className="project-card">
               <a href="https://github.com/NatGallagher" target="_blank" rel="noreferrer">GitHub</a>
-              <p>An interactive web app that lets users search and browse GIFs using an external API. It demonstrates async JavaScript and dynamic DOM manipulation.</p>
+              <p>Explore my GitHub repositories — full stack projects built with JavaScript, React, Node.js, and SQL. Clean code. Real-world solutions.</p>
             </div>
     
             <div className="project-card">
-              <a href="https://natgallagher.github.io/Gallagh-Project-3/" target="_blank" rel="noreferrer">About Me</a>
-              <p>A fully functional to-do list built with React. It allows users to manage tasks and filters them by completion status, showcasing React state and component design.</p>
+              <a href="/#/about" target="_blank" rel="noreferrer">About Me</a>
+              <p>Curious who’s behind the code? Click to read my story, skills, and what I’m passionate about building.</p>
             </div>
     
             <div className="project-card">
