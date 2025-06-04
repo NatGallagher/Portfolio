@@ -1,7 +1,7 @@
 # Portfolio
 
 # project description
-
+Personal portfoio
 
 # website project name
 Portfolio
@@ -15,14 +15,14 @@ Portfolio
 - javascript
 - react
 - bootstrap
+- react
 
 # github code repository
 - https://github.com/NatGallagher/Portfolio.git
 
 # website url
-- Not yet deployed
+- https://natgallagher.github.io/Portfolio
 
 # future improvements
-- Make "lets connect" a button to contact on the home screen
-- Home page have the different pages on the screen not just the nav
-- About section needs styling (look for inspiration)
+- Make color scheme more lively
+- List upcoming projects
